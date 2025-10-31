@@ -2,7 +2,6 @@
 import Book from "~/components/book";
 import FlipCountdown from "~/components/FlipCountdown";
 import Name from "~/components/Name";
-import { useSearchParams } from "next/navigation";
 import Introduction from "~/components/Introduction";
 import SwiperSlider from "~/components/swiper-slider";
 import Map from "~/components/map";
