@@ -51,7 +51,18 @@ const merienda = Playfair_Display({
 
 export const metadata: Metadata = {
   title: "Đạt Vũ & Quỳnh Như",
-  description: "Đạt Vũ & Quỳnh Như"
+  description: "Đạt Vũ & Quỳnh Như",
+  openGraph: {
+    images: [
+      "https://scontent.fsgn8-4.fna.fbcdn.net/v/t39.30808-6/546283135_1558724242205205_5170662823186024163_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=833d8c&_nc_ohc=6r5-3nI6oF4Q7kNvwF2ZCrq&_nc_oc=Admm846fGrFl_Uvjaq81-LU4MsKd20ZUSyFW31NEKHa0RVGEbr4bCzKqi546l1J4BpM1pb7XJa_BoJGjoVmkwd2T&_nc_zt=23&_nc_ht=scontent.fsgn8-4.fna&_nc_gid=Fn588heYvQRPU0VYpLMNgg&oh=00_AfeGWmUEAJbPWAoUmaYnSBv8DdHVHrjsoEBGEn_BG6fSwg&oe=690A6BF4"
+    ]
+  },
+  twitter: {
+    card: "summary_large_image",
+    images: [
+      "https://scontent.fsgn8-4.fna.fbcdn.net/v/t39.30808-6/546283135_1558724242205205_5170662823186024163_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=833d8c&_nc_ohc=6r5-3nI6oF4Q7kNvwF2ZCrq&_nc_oc=Admm846fGrFl_Uvjaq81-LU4MsKd20ZUSyFW31NEKHa0RVGEbr4bCzKqi546l1J4BpM1pb7XJa_BoJGjoVmkwd2T&_nc_zt=23&_nc_ht=scontent.fsgn8-4.fna&_nc_gid=Fn588heYvQRPU0VYpLMNgg&oh=00_AfeGWmUEAJbPWAoUmaYnSBv8DdHVHrjsoEBGEn_BG6fSwg&oe=690A6BF4"
+    ]
+  }
 };
 
 export default function RootLayout({
