@@ -3,7 +3,7 @@ import { useSearchParams } from "next/navigation";
 
 import * as React from "react";
 
-export default function Name(props: any) {
+export default function Name() {
   const searchParams = useSearchParams();
   const name = searchParams.get("name");
 

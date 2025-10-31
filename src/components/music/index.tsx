@@ -1,11 +1,9 @@
 "use client";
 
-import React, { useEffect, useRef, useState } from "react";
+import React, { useRef } from "react";
 import "./styles.scss";
 
-export interface IMusicProps {}
-
-export default function Music(props: IMusicProps) {
+export default function Music() {
   const audioRef = useRef<any>(null);
   const play = () => {
     if (audioRef.current) {

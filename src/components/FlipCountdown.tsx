@@ -1,7 +1,6 @@
 import React from "react";
-export interface IFlipCountdownProps {}
 
-export default function FlipCountdown(props: IFlipCountdownProps) {
+export default function FlipCountdown() {
   return (
     <div>
       <div
