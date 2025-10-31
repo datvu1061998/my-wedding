@@ -3,9 +3,7 @@ import { useSearchParams } from "next/navigation";
 
 import * as React from "react";
 
-export interface IAppProps {}
-
-export default function Name(props: IAppProps) {
+export default function Name(props: any) {
   const searchParams = useSearchParams();
   const name = searchParams.get("name");
 

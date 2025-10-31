@@ -172,7 +172,7 @@ export default function Home() {
                   <br />
                   <span className="bg-[#221e1e] leading-[160%] px-[10px]">
                     Cùng mình làm cho ngày vui bùng nổ nào!
-                    <span className="font-bold pl-[1%]">#QuynhNhuSayYes"</span>
+                    <span className="font-bold pl-[1%]">#QuynhNhuSayYes</span>
                   </span>
                 </div>
               }
@@ -202,7 +202,7 @@ export default function Home() {
                   </span>
                   <br />
                   <span className="bg-[#221e1e] leading-[160%] px-[10px]">
-                    #TeamBuTru #ChongNhauVoNoi"
+                    #TeamBuTru #ChongNhauVoNoi
                   </span>
                 </div>
               }

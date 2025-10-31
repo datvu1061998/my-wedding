@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
+import React from "react";
 export interface IFlipCountdownProps {}
 
 export default function FlipCountdown(props: IFlipCountdownProps) {
