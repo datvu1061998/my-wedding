@@ -1,10 +1,19 @@
 "use client";
 
-import React, { useRef } from "react";
+import React, { useEffect, useRef } from "react";
 import "./styles.scss";
 
 export default function Music() {
   const audioRef = useRef<any>(null);
+
+  useEffect(() => {
+    const button: any = document.querySelector(".play-audio");
+    if (audioRef.current.paused) {
+      button.style.animationPlayState = "running";
+    } else {
+      button.style.animationPlayState = "paused";
+    }
+  }, []);
   const play = () => {
     if (audioRef.current) {
       const button: any = document.querySelector(".play-audio");

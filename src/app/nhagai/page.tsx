@@ -132,7 +132,7 @@ export default function NhaTrai() {
                 }}
                 className="flex items-center text-[60px] md:text-[6svh] text-white gap-[20px] font-[700] font-the-nautigal right-to-left "
               >
-                <div>16</div>
+                <div>15</div>
                 <div className="py-[10%] h-full">
                   <div className="w-[2px] h-full bg-white"></div>
                 </div>
@@ -219,7 +219,7 @@ export default function NhaTrai() {
             <SwiperSlider />
           </div>
           <div className="h-svh snap-start flex">
-            <Map />
+            <Map check={true} />
           </div>
           <div className="h-svh snap-start flex">
             <Footer />
