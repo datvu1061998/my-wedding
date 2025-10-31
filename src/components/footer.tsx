@@ -1,8 +1,6 @@
 import * as React from "react";
 
-export interface IFooterProps {}
-
-export default function Footer(props: IFooterProps) {
+export default function Footer() {
   return (
     <div className="flex flex-col justify-between items-center w-full">
       <div className="text-center text-[3svh] md:text-[4svh] font-bold text-shadow-lg text-shadow-[#0003] px-[40px] pt-[15%]">

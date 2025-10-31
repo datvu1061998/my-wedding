@@ -1,9 +1,7 @@
 import * as React from "react";
 import "./styles.scss";
 
-export interface IMapProps {}
-
-export default function Map(props: IMapProps) {
+export default function Map() {
   return (
     <div className="p-[20px] md:p-[40px] w-full flex flex-col gap-[30px]">
       <div className="">
