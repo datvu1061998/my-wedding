@@ -8,16 +8,20 @@ export default function Map({ check = false }) {
         <h2 className="font-merienda text-[5svh] md:text-[8svh] font-bold text-shadow-lg text-shadow-[#0003]">
           Nơi tổ chức tiệc
         </h2>
-        <p className="text-[15px] md:text-[2svh] text-shadow-lg font-merienda text-shadow-[#0003]">
-          <span className="bg-[#221e1e] leading-[160%] px-[10px]">
-            Đối diện trường tiểu học Nguyễn Trung Trực
-          </span>
-        </p>
-        <p className="text-[15px] md:text-[2svh] text-shadow-lg font-merienda text-shadow-[#0003]">
-          <span className="bg-[#221e1e] leading-[160%] px-[10px]">
-            (Tà lài - Tân Phú - Đồng Nai)
-          </span>
-        </p>
+        {!check && (
+          <>
+            <p className="text-[15px] md:text-[2svh] text-shadow-lg font-merienda text-shadow-[#0003]">
+              <span className="bg-[#221e1e] leading-[160%] px-[10px]">
+                Đối diện trường tiểu học Nguyễn Trung Trực
+              </span>
+            </p>
+            <p className="text-[15px] md:text-[2svh] text-shadow-lg font-merienda text-shadow-[#0003]">
+              <span className="bg-[#221e1e] leading-[160%] px-[10px]">
+                (Tà lài - Tân Phú - Đồng Nai)
+              </span>
+            </p>
+          </>
+        )}
         <p className="text-[15px] md:text-[2svh] text-shadow-lg font-merienda text-shadow-[#0003]">
           <span className="bg-[#221e1e] italic leading-[160%] px-[10px]">
             Chỗ quen thuộc, dễ tìm, đỗ xe chill chill – tới là thấy tiệc luôn!
