@@ -1,0 +1,41 @@
+.img-hanger {
+   width: 250px;
+   aspect-ratio: 3/4;
+   border: 8px solid #f2f2f2;
+   transform-origin: center -20px;
+   animation: swing 2s ease-in-out alternate infinite;
+   box-shadow: 10px 15px 10 0px #08080853;
+}
+@keyframes swing {
+   0% {
+      transform: rotate(-5deg);
+   }
+   100% {
+      transform: rotate(5deg);
+   }
+}
+.img-hanger::before {
+   position: absolute;
+   content: "";
+   width: 10px;
+   height: 10px;
+   background-color: #f2f2f2;
+   top: -40px;
+   left: 50%;
+   border-radius: 50%;
+}
+.img-hanger::after {
+   position: absolute;
+   content: "";
+   width: 8px;
+   height: 40px;
+   border: 1px solid #f2f2f2;
+   top: -35px;
+   left: 50%;
+   z-index: -1;
+}
+.img-hanger img {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
