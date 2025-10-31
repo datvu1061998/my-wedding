@@ -5,7 +5,7 @@ import "swiper/css";
 
 export default function SwiperSlider() {
   return (
-    <div className="flex-1 relative flex flex-col justify-between">
+    <div className="flex-1 relative flex flex-col justify-between overflow-hidden">
       <div className="p-[20px] md:p-[40px]">
         <h2
           style={{ textShadow: "2px 2px 2px #0009" }}
