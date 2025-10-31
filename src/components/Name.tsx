@@ -11,9 +11,9 @@ export default function Name() {
   return name ? (
     <div
       style={{ animationDelay: `2.5s`, textShadow: "2px 2px 7px #000" }}
-      className="font-the-nautigal right-to-left text-[40px] md:text-[8svh] text-shadow-lg font-[700]"
+      className="font-the-nautigal right-to-left text-[40px] md:text-[8svh] text-shadow-lg font-[700] leading-[100%] text-center"
     >
-      <span className="text-[40px] text-center">
+      <span className="text-[40px] max-md:text-[30px] text-center">
         Trân trọng mời: {name.length > 14 && <br />}
       </span>{" "}
       {name.replaceAll("-", " ")}
