@@ -16,7 +16,7 @@ export default function Home() {
       <div className="banner">
         <div className="overflow-y-auto h-svh snap-start snap-mandatory snap-y w-full">
           <div className="h-svh flex flex-col justify-between items-center snap-start">
-            <div className="title max-md:px-[20px] max-w-[50svh]  w-full mt-[20px] md:mt-[50px]">
+            <div className="title max-md:px-[20px] max-w-[50svh]  w-full mt-[20px] md:mt-[50px] main-text">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="100%"
@@ -133,11 +133,11 @@ export default function Home() {
                 className="flex items-center text-[60px] md:text-[6svh] text-white gap-[20px] font-[700] font-the-nautigal right-to-left "
               >
                 <div>16</div>
-                <div className="py-[10%] h-full">
+                <div className="py-[10%] h-full bg-white">
                   <div className="w-[2px] h-full bg-white"></div>
                 </div>
                 <div>11</div>
-                <div className="py-[10%] h-full">
+                <div className="py-[10%] h-full bg-white">
                   <div className="w-[2px] h-full bg-white"></div>
                 </div>
                 <div>2025</div>

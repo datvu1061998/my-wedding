@@ -130,17 +130,20 @@ export default function NhaTrai() {
                   animationDelay: `2s`,
                   textShadow: "2px 2px 7px #000"
                 }}
-                className="flex items-center text-[60px] md:text-[6svh] text-white gap-[20px] font-[700] font-the-nautigal right-to-left "
+                className="flex flex-col items-center text-[60px] md:text-[6svh] text-white font-[700] font-the-nautigal right-to-left leading-[50%]"
               >
-                <div>16</div>
-                <div className="py-[10%] h-full">
-                  <div className="w-[2px] h-full bg-white"></div>
+                <div className="flex items-center gap-[20px]">
+                  <div>16</div>
+                  <div className=" h-full ">
+                    <div className="w-[2px] h-full bg-white"></div>
+                  </div>
+                  <div>11</div>
+                  <div className=" h-full">
+                    <div className="w-[2px] h-full bg-white"></div>
+                  </div>
+                  <div>2025</div>
                 </div>
-                <div>11</div>
-                <div className="py-[10%] h-full">
-                  <div className="w-[2px] h-full bg-white"></div>
-                </div>
-                <div>2025</div>
+                <div className="text-[40px]">11:00am</div>
               </div>
             </div>
             <Suspense fallback={<div>Đang tải...</div>}>

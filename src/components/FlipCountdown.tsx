@@ -4,7 +4,7 @@ export default function FlipCountdown() {
   return (
     <div>
       <div
-        className="tick max-md:w-[340px] w-[40svh] mx-auto mb-[30px]"
+        className="tick max-md:w-[300px] w-[40svh] mx-auto mb-[30px]"
         data-did-init="handleTickInit"
       >
         <div

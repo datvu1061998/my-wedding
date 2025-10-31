@@ -11,7 +11,7 @@ export interface IIntroductionProps {
 export default function Introduction({ src, name, desc }: IIntroductionProps) {
   return (
     <div className="px-[40px] max-md:px-[20px] flex flex-col w-full">
-      <div className="py-[40px] pl-[7%]">
+      <div className="pt-[40px] pb-[20px] pl-[7%]">
         <div className="img-hanger md:!w-[40svh]">
           <Image
             src={src}
