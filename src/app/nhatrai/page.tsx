@@ -14,8 +14,11 @@ export default function NhaTrai() {
     <div className="max-w-[1200px] md:max-w-[80svh] relative mx-auto">
       <Music />
       <div className="banner">
-        <div className="overflow-y-auto h-svh snap-start snap-mandatory snap-y w-full">
-          <div className="h-svh flex flex-col justify-between items-center snap-start">
+        <div className="overflow-y-auto h-svh snap-start snap-mandatory snap-y w-full scroll-smooth">
+          <div
+            id="section-1"
+            className="h-svh flex flex-col justify-between items-center snap-start"
+          >
             <div className="title max-md:px-[20px] max-w-[50svh]  w-full mt-[20px] md:mt-[50px]">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -157,7 +160,7 @@ export default function NhaTrai() {
             </div>
           </div>
 
-          <div className="h-svh snap-start flex">
+          <div id="section-2" className="h-svh snap-start flex">
             <Introduction
               src="/imgs/co-dau.webp"
               name="Quỳnh Như"
@@ -218,13 +221,13 @@ export default function NhaTrai() {
               }
             />
           </div>
-          <div className="h-svh snap-start flex">
+          <div id="section-3" className="h-svh snap-start flex">
             <SwiperSlider />
           </div>
-          <div className="h-svh snap-start flex">
+          <div id="section-4" className="h-svh snap-start flex">
             <Map />
           </div>
-          <div className="h-svh snap-start flex">
+          <div id="section-5" className="h-svh snap-start flex">
             <Footer />
           </div>
         </div>
