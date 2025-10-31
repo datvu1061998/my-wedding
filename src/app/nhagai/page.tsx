@@ -222,7 +222,7 @@ export default function NhaTrai() {
             <Map check={true} />
           </div>
           <div className="h-svh snap-start flex">
-            <Footer />
+            <Footer qr />
           </div>
         </div>
       </div>

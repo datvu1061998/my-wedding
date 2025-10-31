@@ -53,15 +53,17 @@ export const metadata: Metadata = {
   title: "Đạt Vũ & Quỳnh Như",
   description: "Đạt Vũ & Quỳnh Như",
   openGraph: {
+    title: "Đạt Vũ & Quỳnh Như",
     images: [
-      "https://scontent.fsgn8-4.fna.fbcdn.net/v/t39.30808-6/546283135_1558724242205205_5170662823186024163_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=833d8c&_nc_ohc=6r5-3nI6oF4Q7kNvwF2ZCrq&_nc_oc=Admm846fGrFl_Uvjaq81-LU4MsKd20ZUSyFW31NEKHa0RVGEbr4bCzKqi546l1J4BpM1pb7XJa_BoJGjoVmkwd2T&_nc_zt=23&_nc_ht=scontent.fsgn8-4.fna&_nc_gid=Fn588heYvQRPU0VYpLMNgg&oh=00_AfeGWmUEAJbPWAoUmaYnSBv8DdHVHrjsoEBGEn_BG6fSwg&oe=690A6BF4"
-    ]
-  },
-  twitter: {
-    card: "summary_large_image",
-    images: [
-      "https://scontent.fsgn8-4.fna.fbcdn.net/v/t39.30808-6/546283135_1558724242205205_5170662823186024163_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=833d8c&_nc_ohc=6r5-3nI6oF4Q7kNvwF2ZCrq&_nc_oc=Admm846fGrFl_Uvjaq81-LU4MsKd20ZUSyFW31NEKHa0RVGEbr4bCzKqi546l1J4BpM1pb7XJa_BoJGjoVmkwd2T&_nc_zt=23&_nc_ht=scontent.fsgn8-4.fna&_nc_gid=Fn588heYvQRPU0VYpLMNgg&oh=00_AfeGWmUEAJbPWAoUmaYnSBv8DdHVHrjsoEBGEn_BG6fSwg&oe=690A6BF4"
-    ]
+      {
+        url: "https://scontent.fsgn8-3.fna.fbcdn.net/v/t39.30808-6/546283135_1558724242205205_5170662823186024163_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=833d8c&_nc_ohc=6r5-3nI6oF4Q7kNvwEE0QsE&_nc_oc=Adk6hDgHLagrCREgE1-zvvlxy0lK7C8pCNrAE6esQ_qz06wevh69DBUbwRi3ZFE3IOU&_nc_zt=23&_nc_ht=scontent.fsgn8-3.fna&_nc_gid=OkXzPlyj4vhWgk6nNCDMRQ&oh=00_AfdWvi7IoqgRLtgRL5nKEAKsOuk1ikly6Ahv05QHnrPc5Q&oe=690A6BF4", // ← Thumb link
+        width: 1200,
+        height: 630,
+        alt: "Thumbnail"
+      }
+    ],
+    locale: "vi_VN",
+    type: "website"
   }
 };
 
