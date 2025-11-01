@@ -1,4 +1,3 @@
-"use client";
 import Book from "~/components/book";
 import FlipCountdown from "~/components/FlipCountdown";
 import Name from "~/components/Name";
@@ -8,6 +7,7 @@ import Map from "~/components/map";
 import Footer from "~/components/footer";
 import Music from "~/components/music";
 import { Suspense } from "react";
+import "~/app/styles.scss";
 
 export default function NhaTrai() {
   return (
@@ -19,7 +19,7 @@ export default function NhaTrai() {
             id="section-1"
             className="h-svh flex flex-col justify-between items-center snap-start"
           >
-            <div className="title max-md:px-[20px] max-w-[50svh]  w-full mt-[20px] md:mt-[50px]">
+            <div className="title max-md:px-[20px] max-w-[50svh]  w-full mt-[20px] md:mt-[50px] main-text">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="100%"

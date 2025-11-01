@@ -6,7 +6,6 @@ import * as React from "react";
 export default function Name() {
   const searchParams = useSearchParams();
   const name = searchParams.get("name");
-  console.log(name);
 
   return name ? (
     <div

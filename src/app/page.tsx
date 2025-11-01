@@ -1,4 +1,3 @@
-"use client";
 import Book from "~/components/book";
 import FlipCountdown from "~/components/FlipCountdown";
 import Name from "~/components/Name";
