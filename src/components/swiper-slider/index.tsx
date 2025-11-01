@@ -28,7 +28,7 @@ export default function SwiperSlider() {
         </p>
       </div>
       <div className="box my-auto">
-        <div className="main-box md:!w-[30svh]">
+        <div className="main-box w-[40svh] md:!w-[30svh]">
           <div className="item">
             <img src="/imgs/church-1.webp" />
           </div>

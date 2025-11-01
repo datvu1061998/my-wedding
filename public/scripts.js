@@ -89,3 +89,39 @@ element.addEventListener('mouseup', () => {
 element.addEventListener("mouseout", () => {
    isDragging = false;
 })
+
+element.addEventListener('touchstart', (e) => {
+   clearInterval(swiperInterval);
+   isDragging = true;
+   startX = e.touches[0].clientX; // Lưu vị trí X ban đầu
+});
+
+// Sự kiện di chuyển chuột: Phát hiện hướng
+element.addEventListener('touchmove', (e) => {
+   if (!isDragging) return;
+   const currentX = e.touches[0].clientX;
+   const deltaX = currentX - startX;
+
+   if (deltaX > 0) {  // Ngưỡng để tránh nhiễu (vuốt phải ít nhất 10px)
+      direction = 'right';
+
+   } else if (deltaX < 0) {  // Vuốt trái
+      direction = 'left';
+   }
+});
+
+// Sự kiện thả chuột: Kết thúc kéo
+element.addEventListener('touchend', () => {
+   swiperInterval = setInterval(() => {
+      swipeRight()
+   }, 2000);
+   if (isDragging) {
+      isDragging = false;
+      if (direction === "right") {
+         swipeRight();
+      }
+      if (direction === "left") {
+         swipeLeft();
+      }
+   }
+});
